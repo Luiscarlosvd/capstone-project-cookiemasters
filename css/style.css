@@ -146,6 +146,90 @@ nav a:hover {
   font-size: 22px;
 }
 
+/* Main program section */
+
+.background-main-program {
+  background-image: url(../img/background-main-program.jpg);
+  padding-top: 7%;
+  padding-bottom: 10%;
+}
+
+.main-program-section {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.main-program-section h2{
+  color: #f9f9f9;
+  font-weight: 700;
+  font-size: 1.8em;
+  margin-bottom: 0.8em;
+}
+
+.line-bar {
+  background-color: #ec5242;
+  height: 2px;
+  margin: 0 auto;
+  max-width: 4em;
+}
+
+.main-program-section ul {
+  margin-top: 2.5em;
+}
+
+.main-program-cards {
+  background: rgba(203, 203, 203, 0.1);
+  list-style: none;
+  color: #e7e7e7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  padding: 1.5rem;
+  gap: 0.5rem;
+  margin: 0.8em 0;
+  height: 10em;
+}
+
+.main-program-cards h3 {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 22px;
+  width: 30%;
+}
+
+.main-program-cards p {
+  color: #f9f9f9;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 50%;
+  margin-left: 2px;
+}
+
+.main-program-section-cards {
+  padding-bottom: 2em;
+}
+
+.main-program-section a {
+  color: #ededed;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.link-main-program {
+  display: none;
+  margin-top: 2.5rem;
+}
+
+.orange-button {
+  background-color: #ec5242;
+  color: #f1f1f1;
+  padding: 2em;
+  margin: 0 auto;
+  border: none;
+}
+
 @media (min-width: 768px){
     /* Header */
   .container-header {
@@ -187,5 +271,47 @@ nav a:hover {
 
   .headline-section {
     padding-top: 5%;
+  }
+
+  /* Main Program section */
+
+  .background-main-program {
+    padding-top: 4%;
+    padding-bottom: 6%;
+  }
+
+  .main-program-section h2 {
+    font-size: 2.2em;
+  }
+
+  .main-program-section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3em;
+    margin: 0 20px;
+  }
+
+  .main-program-cards {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    height: 20em;
+    width: 15em;
+  }
+
+  .main-program-cards p,
+  .main-program-cards h3 {
+    width: 100%;
+  }
+
+  .orange-button {
+    display: none;
+  }
+
+  .link-main-program {
+    display: inherit;
   }
 }
