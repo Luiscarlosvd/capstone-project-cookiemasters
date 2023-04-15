@@ -84,7 +84,70 @@ nav a:hover {
   border: #ec5242 solid 5px;
 }
 
+.menu-button {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  padding: 0 0.5em;
+  width: auto;
+  border: 0;
+  background-color: unset;
+}
+
+/* Headline Section */
+
+.margin-container {
+  margin: 0 5%;
+}
+
+.background-headline {
+  background-color: #f1f1f1;
+}
+
+.headline-section {
+  margin-top: 2em;
+  padding-bottom: 10%;
+}
+
+.headline-section h1{
+  color: #ec5242;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.headline-section h1 span {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.container-p {
+  border: #ffffff solid 4px;
+  padding: 1em;
+  max-width: 48em;
+}
+
+.headline-section h3 {
+  margin-top: 0.5em;
+  font-weight: 900;
+  font-size: 30px;
+  color: #4e4e4e;
+}
+
+.paragraphs {
+  font-weight: 400;
+  font-size: large;
+  line-height: 1.8em;
+  color: #3b3b3b;
+}
+
+.b-h3 {
+  margin-top: 0.3em;
+  font-weight: 400;
+  font-size: 22px;
+}
+
 @media (min-width: 768px){
+    /* Header */
   .container-header {
     background-color: #fff;
   }
@@ -115,13 +178,14 @@ nav a:hover {
   .menu-button {
     display: none;
   }
-}
 
-.menu-button {
-  margin-top: 0.5em;
-  margin-left: 0.5em;
-  padding: 0 0.5em;
-  width: auto;
-  border: 0;
-  background-color: unset;
+  /*Headline*/
+
+  .margin-container {
+    margin: 0 11%;
+  }
+
+  .headline-section {
+    padding-top: 5%;
+  }
 }
