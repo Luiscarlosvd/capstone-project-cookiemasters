@@ -35,18 +35,6 @@ body {
   list-style: none;
 }
 
-.top-header li {
-  font-size: 15px;
-  margin: 0.2em 0.5em;
-  padding: 0.1em;
-}
-
-.top-header li a {
-  text-decoration: none;
-  color: #e7e7e7;
-  font-weight: 400;
-}
-
 .logo-header {
   display: none;
   margin-top: 0.5em;
@@ -60,6 +48,12 @@ nav li {
   list-style: none;
 }
 
+.top-header li {
+  font-size: 15px;
+  margin: 0.2em 0.5em;
+  padding: 0.1em;
+}
+
 nav li a {
   text-decoration: none;
   color: #272a31;
@@ -68,9 +62,21 @@ nav li a {
   transition: font-size 0.25s;
 }
 
+.main-program-section a {
+  color: #ededed;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.top-header li a {
+  text-decoration: none;
+  color: #e7e7e7;
+  font-weight: 400;
+}
+
 nav a:hover {
   color: #ec5242;
-  font-size: 17px
+  font-size: 17px;
 }
 
 .nav-links {
@@ -108,7 +114,7 @@ nav a:hover {
   padding-bottom: 10%;
 }
 
-.headline-section h1{
+.headline-section h1 {
   color: #ec5242;
   font-weight: 900;
   font-size: 50px;
@@ -121,7 +127,7 @@ nav a:hover {
 }
 
 .container-p {
-  border: #ffffff solid 4px;
+  border: #fff solid 4px;
   padding: 1em;
   max-width: 48em;
 }
@@ -160,7 +166,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.main-program-section h2{
+.main-program-section h2 {
   color: #f9f9f9;
   font-weight: 700;
   font-size: 1.8em;
@@ -211,12 +217,6 @@ nav a:hover {
   padding-bottom: 2em;
 }
 
-.main-program-section a {
-  color: #ededed;
-  font-weight: 300;
-  font-size: 25px;
-}
-
 .link-main-program {
   display: none;
   margin-top: 2.5rem;
@@ -232,7 +232,7 @@ nav a:hover {
 
 /* Featured Guests */
 
-.featured-guests-section h2{
+.featured-guests-section h2 {
   color: #272a31;
   font-weight: 700;
   font-size: 1.8em;
@@ -259,7 +259,7 @@ nav a:hover {
   text-align: left;
 }
 
-.individual-guest img{
+.individual-guest img {
   width: 140px;
   height: 150px;
   margin-right: 1em;
@@ -297,8 +297,8 @@ nav a:hover {
   max-width: 2em;
 }
 
-@media (min-width: 768px){
-    /* Header */
+@media (min-width: 768px) {
+  /* Header */
   .container-header {
     background-color: #fff;
   }
@@ -330,7 +330,7 @@ nav a:hover {
     display: none;
   }
 
-  /*Headline*/
+  /* Headline */
 
   .margin-container {
     margin: 0 11%;
