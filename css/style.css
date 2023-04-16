@@ -166,9 +166,9 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.main-program-section h2 {
-  color: #f9f9f9;
-  font-weight: 700;
+.title-white {
+  color: #d3d3d3;
+  font-weight: 400;
   font-size: 1.8em;
   margin-bottom: 0.8em;
 }
@@ -244,6 +244,7 @@ nav a:hover {
   width: 95%;
   margin: 0 auto;
   padding-top: 2em;
+  padding-bottom: 2.3em;
 }
 
 .featured-guest-container {
@@ -295,6 +296,41 @@ nav a:hover {
   height: 1.5px;
   margin: 3px 0;
   max-width: 2em;
+}
+
+/* Partners */
+
+.partner-section {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  background-color: #272a31;
+}
+
+.partner-branch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.partner-branch img {
+  width: 160px;
+  height: 109px;
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container img {
+  width: 12em;
+  height: 11em;
 }
 
 @media (min-width: 768px) {
@@ -391,6 +427,20 @@ nav a:hover {
 
   .featured-guests-section {
     width: 90%;
+  }
+
+  /* Partners */
+
+  .partner-branch img {
+    width: 236px;
+    height: 155px;
+  }
+
+  /* footer */
+
+  .footer-container {
+    justify-content: left;
+    margin-left: 15%;
   }
 }
 

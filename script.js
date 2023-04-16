@@ -44,7 +44,7 @@ const guestContainer = document.getElementById('guest-container');
 guests.forEach((x) => {
   guestContainer.innerHTML += `
         <li class="individual-guest">
-            <img src="${x.image}" alt="">
+            <img src="${x.image}" alt="Guest image">
             <div class="description-guest">
                 <h3>${x.Name}</h3>
                 <h4>${x.subtitle}</h4>
