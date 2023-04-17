@@ -117,13 +117,16 @@ nav a:hover {
 .headline-section h1 {
   color: #ec5242;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 30px;
+  line-height: 1em;
 }
 
-.headline-section h1 span {
+.h3-headline {
+  color: #ec5242;
   font-weight: 400;
-  font-size: 38px;
+  font-size: 33px;
+  margin-bottom: 0.3em;
 }
 
 .container-p {
@@ -132,7 +135,7 @@ nav a:hover {
   max-width: 48em;
 }
 
-.headline-section h3 {
+.date-h3 {
   margin-top: 0.5em;
   font-weight: 900;
   font-size: 30px;
@@ -370,6 +373,23 @@ nav a:hover {
 
   .margin-container {
     margin: 0 11%;
+  }
+
+  .headline-section h1 {
+    font-size: 60px;
+  }
+
+  .h3-headline,
+  .date-h3 {
+    margin-top: 1em;
+  }
+
+  .date-h3 {
+    font-size: 35px;
+  }
+
+  .h3-headline {
+    font-size: 43px;
   }
 
   .headline-section {

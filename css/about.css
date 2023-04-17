@@ -90,7 +90,7 @@ body {
   font-size: 2em;
 }
 
-.background-course-text p{
+.background-course-text p {
   font-size: 23px;
 }
 
@@ -121,10 +121,10 @@ footer {
   }
 
   .headline-section {
-    padding-top: 3em;
+    padding-top: 5em;
   }
 
-  .headline-section span {
+  .h3-headline {
     display: none;
   }
 
