@@ -33,8 +33,7 @@ body {
 /* Logo Section */
 
 .logo-about-section {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding: 3em 0;
 }
 
 .border {
@@ -55,6 +54,65 @@ body {
 .container-logo img {
   width: 80%;
   height: 25%;
+}
+
+/* Past Course */
+
+.past-course-section {
+  padding: 2.5em 0;
+  margin: 2% 4%;
+}
+
+.past-course-p {
+  margin-top: 2em;
+}
+
+.past-courses {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+.background-course {
+  height: 17em;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.background-course-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.background-course-text p{
+  font-size: 23px;
+}
+
+.background-course div {
+  height: 100%;
+  background-color: rgba(204, 3, 3, 0.575);
+}
+
+.bg-1 {
+  background-image: url(../img/past-course-2.jpg);
+}
+
+.bg-2 {
+  background-image: url(../img/past-course-1.jpg);
+}
+
+.background-course div:hover {
+  display: none;
+}
+
+footer {
+  border-top: #d4d4d4 solid 0.8px;
 }
 
 @media (min-width: 768px) {
@@ -81,5 +139,15 @@ body {
 
   .partner-section {
     display: none;
+  }
+
+  .background-course {
+    width: 40rem;
+    height: 20em;
+  }
+
+  .past-courses {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
