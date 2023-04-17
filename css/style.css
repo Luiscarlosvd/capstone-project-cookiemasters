@@ -10,6 +10,30 @@ body {
 
 /* Header */
 
+.display-menu-window {
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-quit-display {
+  content: url(../img/icons8-x-50.png);
+  transform: scale(0.7);
+}
+
+.links-display-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1em;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  font-size: 32px;
+  transition: none;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -40,8 +64,14 @@ body {
   margin-top: 0.5em;
 }
 
-nav {
-  display: none;
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  nav ul li:last-child {
+    display: none;
+  }
 }
 
 nav li {
@@ -59,7 +89,6 @@ nav li a {
   color: #272a31;
   font-weight: 600;
   padding: 0.2rem 1rem;
-  transition: font-size 0.25s;
 }
 
 .main-program-section a {
@@ -74,15 +103,6 @@ nav li a {
   font-weight: 400;
 }
 
-nav a:hover {
-  color: #ec5242;
-  font-size: 17px;
-}
-
-.nav-links {
-  display: flex;
-}
-
 .last-nav {
   padding: 0.6em;
   margin-left: 2em;
@@ -91,11 +111,12 @@ nav a:hover {
 }
 
 .menu-button {
-  margin-top: 0.5em;
-  margin-left: 0.5em;
+  position: absolute;
+  left: 1em;
+  top: 1em;
   padding: 0 0.5em;
-  width: auto;
   border: 0;
+  transform: scale(0.8);
   background-color: unset;
 }
 
@@ -338,6 +359,16 @@ nav a:hover {
 
 @media (min-width: 768px) {
   /* Header */
+
+  nav li a {
+    transition: font-size 0.25s;
+  }
+
+  nav a:hover {
+    color: #ec5242;
+    font-size: 17px;
+  }
+
   .container-header {
     background-color: #fff;
   }
@@ -355,6 +386,7 @@ nav a:hover {
   }
 
   .nav-links {
+    display: flex;
     flex-direction: row;
     align-items: last baseline;
   }
