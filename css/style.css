@@ -106,7 +106,7 @@ nav a:hover {
 }
 
 .background-headline {
-  background-color: #f1f1f1;
+  background-color: #f3f3f3;
 }
 
 .headline-section {
@@ -123,7 +123,7 @@ nav a:hover {
 
 .headline-section h1 span {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 38px;
 }
 
 .container-p {
@@ -142,7 +142,7 @@ nav a:hover {
 .paragraphs {
   font-weight: 400;
   font-size: large;
-  line-height: 1.8em;
+  line-height: 2em;
   color: #3b3b3b;
 }
 
@@ -232,7 +232,7 @@ nav a:hover {
 
 /* Featured Guests */
 
-.featured-guests-section h2 {
+.black-title {
   color: #272a31;
   font-weight: 700;
   font-size: 1.8em;
