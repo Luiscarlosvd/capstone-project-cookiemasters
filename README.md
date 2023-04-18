@@ -170,6 +170,7 @@ I would like to thank Microverse Team, my friends, my family and my girlfriend, 
 ## 📝 License <a name="license"></a>
 
 >Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). <br>
+>[Image of the background in Main Program by vector_corp on Freepik](https://www.freepik.com/free-vector/abstract-dark-low-poly-background_25861887.htm#query=website%20background%20black&position=14&from_view=search&track=ais). <br>
 >This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
