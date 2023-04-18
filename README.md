@@ -1,6 +1,6 @@
 # Capstone Project - Cookie Masters 🍪
 
-This is my first Capstone Project! take a look at this Table of contents to know more about this. 😄
+This is my first Capstone Project! take a look at this Table of contents to know more about this or go watch [my video describing this project.](https://www.loom.com/share/332a616678d34a42afb0ee3051b9afcf)😄
 
 <!-- TABLE OF CONTENTS -->
 
@@ -63,7 +63,7 @@ This is my first Capstone Project! take a look at this Table of contents to know
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming Soon... 🙌
+> Go to see the live Demo [here!](https://luiscarlosvd.github.io/capstone-project-cookiemasters/) 🙌
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
