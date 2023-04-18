@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+}
+
+/* Headline About */
+
+.headline-section {
+  padding-bottom: 7%;
+}
+
+.line-bar {
+  max-width: 2.5em;
+}
+
+.container-p-about {
+  border: #d7d7d7 solid 0.8px;
+  background-color: #fff;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 48em;
+  margin-top: 2em;
+}
+
+.p-about {
+  margin-top: 1.5em;
+}
+
+.p-about a {
+  font-weight: 700;
+  color: #404040;
+}
+
+/* Logo Section */
+
+.logo-about-section {
+  padding: 3em 0;
+}
+
+.border {
+  border-bottom: #d7d7d7 solid 0.8px;
+  border-top: #d7d7d7 solid 0.8px;
+}
+
+.logo-about-section p {
+  margin-top: 2em;
+}
+
+.container-logo {
+  border: #d7d7d7 solid 0.8px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.container-logo img {
+  width: 80%;
+  height: 25%;
+}
+
+/* Past Course */
+
+.past-course-section {
+  padding: 2.5em 0;
+  margin: 2% 4%;
+}
+
+.past-course-p {
+  margin-top: 2em;
+}
+
+.past-courses {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+.background-course {
+  height: 17em;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.background-course-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.background-course-text p {
+  font-size: 23px;
+}
+
+.background-course div {
+  height: 100%;
+  background-color: rgba(204, 3, 3, 0.575);
+}
+
+.bg-1 {
+  background-image: url(../img/past-course-2.jpg);
+}
+
+.bg-2 {
+  background-image: url(../img/past-course-1.jpg);
+}
+
+.background-course div:hover {
+  display: none;
+}
+
+footer {
+  border-top: #d4d4d4 solid 0.8px;
+}
+
+@media (min-width: 768px) {
+  .container-p-about {
+    max-width: 75%;
+  }
+
+  .headline-section {
+    padding-top: 5em;
+  }
+
+  .h3-headline {
+    display: none;
+  }
+
+  .container-logo {
+    max-width: 800px;
+  }
+
+  .container-logo img {
+    width: 27em;
+    height: 22em;
+  }
+
+  .partner-section {
+    display: none;
+  }
+
+  .background-course {
+    width: 40rem;
+    height: 20em;
+  }
+
+  .past-courses {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  .footer-container img {
+    width: auto;
+    content: url(../img/Cookie-Masters-2023-logo-white.png);
+  }
+
+  .footer-container p {
+    color: #fff;
+  }
+}
