@@ -341,6 +341,7 @@ nav li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 7%;
 }
 
 .footer-container img {

@@ -150,4 +150,17 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  .footer-container img {
+    width: auto;
+    content: url(../img/Cookie-Masters-2023-logo-white.png);
+  }
+
+  .footer-container p {
+    color: #fff;
+  }
 }
