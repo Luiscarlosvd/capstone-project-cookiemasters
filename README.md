@@ -1,6 +1,6 @@
 # Capstone Project - Cookie Masters 🍪
 
-This is my first Capstone Project! take a look at this Table of contents to know more about this or go watch [my video describing this project.](https://www.loom.com/share/332a616678d34a42afb0ee3051b9afcf)😄
+This is my first Capstone Project! take a look at this Table of contents to know more about this or go watch [my video describing this project.](https://www.loom.com/share/643bec6a36794927b56d6931f3dfa5ed)😄
 
 <!-- TABLE OF CONTENTS -->
 
